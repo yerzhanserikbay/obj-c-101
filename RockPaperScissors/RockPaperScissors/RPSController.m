@@ -10,19 +10,19 @@
 
 @implementation RPSController
 
-//-(void)throwDown:(Move) playersMove {
-//    // Here the RPSTurn class generates the opponent's move
-//    RPSTurn *playersTurn = [[RPSTurn alloc] initWithMove:playersMove];
-//    RPSTurn *computersTurn = [[RPSTurn alloc] init];
+-(void)throwDown:(Move) playersMove {
+    // Here the RPSTurn class generates the opponent's move
+    RPSTurn *playersTurn = [[RPSTurn alloc] initWithMove:playersMove];
+    RPSTurn *computersTurn = [[RPSTurn alloc] init];
+
+    //// The RPSGame class stores the results of the a game
+    self.game = [[RPSGame alloc] initWithFirstTurn:playersTurn
+                                        secondTurn:computersTurn];
+//    RPSGame *game = [[RPSGame alloc] initWithFirstTurn:playersTurn
+//                                            secondTurn:computersTurn];
+//    [self setGame:game];
 //
-//    //// The RPSGame class stores the results of the a game
-//    self.game = [[RPSGame alloc] initWithFirstTurn:playersTurn
-//                                        secondTurn:computersTurn];
-////    RPSGame *game = [[RPSGame alloc] initWithFirstTurn:playersTurn
-////                                            secondTurn:computersTurn];
-////    [self setGame:game];
-////
-//}
+}
 
 -(NSString*)messageForGame:(RPSGame*) game {
     // First, handle the tie
