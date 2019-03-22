@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="2Em-DD-12I">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trafficLight" translatesAutoresizingMaskIntoConstraints="NO" id="S4g-A3-Dm1">
+                                <rect key="frame" x="16" y="44" width="343" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="Rzl-A3-oSH"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RlL-MH-Nnp">
+                                <rect key="frame" x="85" y="531" width="204" height="204"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="RlL-MH-Nnp" secondAttribute="height" multiplier="1:1" id="qaD-L3-wYI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <state key="normal" title="Start" backgroundImage="stopButton"/>
+                                <connections>
+                                    <action selector="startButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Ov-zy-kDt"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="klg-jv-4Cz">
+                                <rect key="frame" x="16" y="284" width="343" height="173"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="70"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RlL-MH-Nnp" secondAttribute="bottom" constant="43" id="C5Y-QU-9ON"/>
+                            <constraint firstItem="klg-jv-4Cz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="GaF-Td-Sf9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="S4g-A3-Dm1" secondAttribute="trailing" constant="16" id="Gte-6b-RMN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RlL-MH-Nnp" secondAttribute="trailing" constant="86" id="HuD-5b-DBd"/>
+                            <constraint firstItem="RlL-MH-Nnp" firstAttribute="top" secondItem="klg-jv-4Cz" secondAttribute="bottom" constant="74" id="QcW-P5-Q78"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="klg-jv-4Cz" secondAttribute="trailing" constant="16" id="RW6-S9-5en"/>
+                            <constraint firstItem="S4g-A3-Dm1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="WiL-od-TWm"/>
+                            <constraint firstItem="S4g-A3-Dm1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="aTn-Vx-bhP"/>
+                            <constraint firstItem="2Em-DD-12I" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bjE-Ns-auD"/>
+                            <constraint firstItem="klg-jv-4Cz" firstAttribute="top" secondItem="S4g-A3-Dm1" secondAttribute="bottom" constant="100" id="gwB-e8-xdQ"/>
+                            <constraint firstItem="2Em-DD-12I" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="oGo-S8-NYU"/>
+                            <constraint firstItem="2Em-DD-12I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ssl-AI-90u"/>
+                            <constraint firstItem="RlL-MH-Nnp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="uZW-Oy-Rzy"/>
+                            <constraint firstItem="2Em-DD-12I" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="ueB-T8-7C5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="scoreLabel" destination="klg-jv-4Cz" id="A0g-UT-aAS"/>
+                        <outlet property="startButton" destination="RlL-MH-Nnp" id="TXH-7r-sxk"/>
+                        <outlet property="trafficLight" destination="S4g-A3-Dm1" id="3Ey-Eh-1vm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="1600" height="900"/>
+        <image name="stopButton" width="66.666664123535156" height="66.666664123535156"/>
+        <image name="trafficLight" width="1500" height="600"/>
+    </resources>
+</document>
