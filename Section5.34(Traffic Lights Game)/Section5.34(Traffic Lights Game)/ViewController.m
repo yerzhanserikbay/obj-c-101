@@ -25,11 +25,22 @@
 - (IBAction)startButtonPressed:(id)sender {
     if (scoreInt == 0) {
         timerInt = 3;
-        
         timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(startTimer) userInfo:nil repeats:YES];
+        
+        self.scoreLabel.text = [NSString stringWithFormat:@"%i", scoreInt];
+        
+        [self.startButton setTitle:@"" forState:UIControlStateNormal];
+        self.startButton.enabled = NO;
     } else {
         [scoreTimer invalidate];
+        [self.startButton setTitle:@"Restart" forState:UIControlStateNormal];
     }
+    
+    if (timerInt == 0) {
+        scoreInt = 0;
+        timerInt = 0;
+    }
+    
 }
 
 - (void)startTimer {
@@ -42,10 +53,14 @@
             self.trafficLight.image = [UIImage imageNamed:@"trafficLight2"];
             break;
         case 0:
-            self.trafficLight.image = [UIImage imageNamed:@"trafficLight31"];
+            self.trafficLight.image = [UIImage imageNamed:@"trafficLight1"];
             [timer invalidate];
             
             scoreTimer = [NSTimer scheduledTimerWithTimeInterval:0.0001 target:self selector:@selector(scoreCounter) userInfo:nil repeats:YES];
+            
+            [self.startButton setTitle:@"Stop" forState:UIControlStateNormal];
+            self.startButton.enabled = YES;
+            
             break;
         default:
             break;
@@ -54,7 +69,7 @@
 
 - (void)scoreCounter {
     scoreInt += 1;
-    self.scoreLabel.text = [NSString stringWithFormat:@"i", scoreInt];
+    self.scoreLabel.text = [NSString stringWithFormat:@"%i", scoreInt];
 }
 
 @end
