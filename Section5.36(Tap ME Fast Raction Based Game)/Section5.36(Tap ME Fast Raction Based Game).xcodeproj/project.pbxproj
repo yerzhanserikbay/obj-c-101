@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A0C4D2B224875F800D9224C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0C4D2A224875F800D9224C /* AppDelegate.m */; };
+		5A0C4D2E224875F800D9224C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0C4D2D224875F800D9224C /* ViewController.m */; };
+		5A0C4D31224875F800D9224C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A0C4D2F224875F800D9224C /* Main.storyboard */; };
+		5A0C4D34224875F800D9224C /* Section5_36_Tap_ME_Fast_Raction_Based_Game_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A0C4D32224875F800D9224C /* Section5_36_Tap_ME_Fast_Raction_Based_Game_.xcdatamodeld */; };
+		5A0C4D36224875F900D9224C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A0C4D35224875F900D9224C /* Assets.xcassets */; };
+		5A0C4D39224875F900D9224C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A0C4D37224875F900D9224C /* LaunchScreen.storyboard */; };
+		5A0C4D3C224875F900D9224C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0C4D3B224875F900D9224C /* main.m */; };
+		5A0C4D46224875F900D9224C /* Section5_36_Tap_ME_Fast_Raction_Based_Game_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0C4D45224875F900D9224C /* Section5_36_Tap_ME_Fast_Raction_Based_Game_Tests.m */; };
+		5A0C4D51224875F900D9224C /* Section5_36_Tap_ME_Fast_Raction_Based_Game_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0C4D50224875F900D9224C /* Section5_36_Tap_ME_Fast_Raction_Based_Game_UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A0C4D42224875F900D9224C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A0C4D1E224875F800D9224C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A0C4D25224875F800D9224C;
+			remoteInfo = "Section5.36(Tap ME Fast Raction Based Game)";
+		};
+		5A0C4D4D224875F900D9224C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A0C4D1E224875F800D9224C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A0C4D25224875F800D9224C;
+			remoteInfo = "Section5.36(Tap ME Fast Raction Based Game)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A0C4D26224875F800D9224C /* Section5.36(Tap ME Fast Raction Based Game).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Section5.36(Tap ME Fast Raction Based Game).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0C4D29224875F800D9224C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A0C4D2A224875F800D9224C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A0C4D2C224875F800D9224C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A0C4D2D224875F800D9224C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A0C4D30224875F800D9224C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A0C4D33224875F800D9224C /* Section5_36_Tap_ME_Fast_Raction_Based_Game_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Section5_36_Tap_ME_Fast_Raction_Based_Game_.xcdatamodel; sourceTree = "<group>"; };
+		5A0C4D35224875F900D9224C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A0C4D38224875F900D9224C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A0C4D3A224875F900D9224C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A0C4D3B224875F900D9224C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A0C4D41224875F900D9224C /* Section5.36(Tap ME Fast Raction Based Game)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Section5.36(Tap ME Fast Raction Based Game)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0C4D45224875F900D9224C /* Section5_36_Tap_ME_Fast_Raction_Based_Game_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Section5_36_Tap_ME_Fast_Raction_Based_Game_Tests.m; sourceTree = "<group>"; };
+		5A0C4D47224875F900D9224C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A0C4D4C224875F900D9224C /* Section5.36(Tap ME Fast Raction Based Game)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Section5.36(Tap ME Fast Raction Based Game)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0C4D50224875F900D9224C /* Section5_36_Tap_ME_Fast_Raction_Based_Game_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Section5_36_Tap_ME_Fast_Raction_Based_Game_UITests.m; sourceTree = "<group>"; };
+		5A0C4D52224875F900D9224C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A0C4D5E2248763200D9224C /* PORKYS_.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = PORKYS_.TTF; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A0C4D23224875F800D9224C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A0C4D3E224875F900D9224C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A0C4D49224875F900D9224C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A0C4D1D224875F800D9224C = {
+			isa = PBXGroup;
+			children = (
+				5A0C4D28224875F800D9224C /* Section5.36(Tap ME Fast Raction Based Game) */,
+				5A0C4D44224875F900D9224C /* Section5.36(Tap ME Fast Raction Based Game)Tests */,
+				5A0C4D4F224875F900D9224C /* Section5.36(Tap ME Fast Raction Based Game)UITests */,
+				5A0C4D27224875F800D9224C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A0C4D27224875F800D9224C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A0C4D26224875F800D9224C /* Section5.36(Tap ME Fast Raction Based Game).app */,
+				5A0C4D41224875F900D9224C /* Section5.36(Tap ME Fast Raction Based Game)Tests.xctest */,
+				5A0C4D4C224875F900D9224C /* Section5.36(Tap ME Fast Raction Based Game)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A0C4D28224875F800D9224C /* Section5.36(Tap ME Fast Raction Based Game) */ = {
+			isa = PBXGroup;
+			children = (
+				5A0C4D29224875F800D9224C /* AppDelegate.h */,
+				5A0C4D2A224875F800D9224C /* AppDelegate.m */,
+				5A0C4D2C224875F800D9224C /* ViewController.h */,
+				5A0C4D2D224875F800D9224C /* ViewController.m */,
+				5A0C4D2F224875F800D9224C /* Main.storyboard */,
+				5A0C4D35224875F900D9224C /* Assets.xcassets */,
+				5A0C4D37224875F900D9224C /* LaunchScreen.storyboard */,
+				5A0C4D3A224875F900D9224C /* Info.plist */,
+				5A0C4D3B224875F900D9224C /* main.m */,
+				5A0C4D32224875F800D9224C /* Section5_36_Tap_ME_Fast_Raction_Based_Game_.xcdatamodeld */,
+				5A0C4D5E2248763200D9224C /* PORKYS_.TTF */,
+			);
+			path = "Section5.36(Tap ME Fast Raction Based Game)";
+			sourceTree = "<group>";
+		};
+		5A0C4D44224875F900D9224C /* Section5.36(Tap ME Fast Raction Based Game)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5A0C4D45224875F900D9224C /* Section5_36_Tap_ME_Fast_Raction_Based_Game_Tests.m */,
+				5A0C4D47224875F900D9224C /* Info.plist */,
+			);
+			path = "Section5.36(Tap ME Fast Raction Based Game)Tests";
+			sourceTree = "<group>";
+		};
+		5A0C4D4F224875F900D9224C /* Section5.36(Tap ME Fast Raction Based Game)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A0C4D50224875F900D9224C /* Section5_36_Tap_ME_Fast_Raction_Based_Game_UITests.m */,
+				5A0C4D52224875F900D9224C /* Info.plist */,
+			);
+			path = "Section5.36(Tap ME Fast Raction Based Game)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A0C4D25224875F800D9224C /* Section5.36(Tap ME Fast Raction Based Game) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A0C4D55224875F900D9224C /* Build configuration list for PBXNativeTarget "Section5.36(Tap ME Fast Raction Based Game)" */;
+			buildPhases = (
+				5A0C4D22224875F800D9224C /* Sources */,
+				5A0C4D23224875F800D9224C /* Frameworks */,
+				5A0C4D24224875F800D9224C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Section5.36(Tap ME Fast Raction Based Game)";
+			productName = "Section5.36(Tap ME Fast Raction Based Game)";
+			productReference = 5A0C4D26224875F800D9224C /* Section5.36(Tap ME Fast Raction Based Game).app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A0C4D40224875F900D9224C /* Section5.36(Tap ME Fast Raction Based Game)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A0C4D58224875F900D9224C /* Build configuration list for PBXNativeTarget "Section5.36(Tap ME Fast Raction Based Game)Tests" */;
+			buildPhases = (
+				5A0C4D3D224875F900D9224C /* Sources */,
+				5A0C4D3E224875F900D9224C /* Frameworks */,
+				5A0C4D3F224875F900D9224C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A0C4D43224875F900D9224C /* PBXTargetDependency */,
+			);
+			name = "Section5.36(Tap ME Fast Raction Based Game)Tests";
+			productName = "Section5.36(Tap ME Fast Raction Based Game)Tests";
+			productReference = 5A0C4D41224875F900D9224C /* Section5.36(Tap ME Fast Raction Based Game)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A0C4D4B224875F900D9224C /* Section5.36(Tap ME Fast Raction Based Game)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A0C4D5B224875F900D9224C /* Build configuration list for PBXNativeTarget "Section5.36(Tap ME Fast Raction Based Game)UITests" */;
+			buildPhases = (
+				5A0C4D48224875F900D9224C /* Sources */,
+				5A0C4D49224875F900D9224C /* Frameworks */,
+				5A0C4D4A224875F900D9224C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A0C4D4E224875F900D9224C /* PBXTargetDependency */,
+			);
+			name = "Section5.36(Tap ME Fast Raction Based Game)UITests";
+			productName = "Section5.36(Tap ME Fast Raction Based Game)UITests";
+			productReference = 5A0C4D4C224875F900D9224C /* Section5.36(Tap ME Fast Raction Based Game)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A0C4D1E224875F800D9224C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = YS;
+				TargetAttributes = {
+					5A0C4D25224875F800D9224C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5A0C4D40224875F900D9224C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5A0C4D25224875F800D9224C;
+					};
+					5A0C4D4B224875F900D9224C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5A0C4D25224875F800D9224C;
+					};
+				};
+			};
+			buildConfigurationList = 5A0C4D21224875F800D9224C /* Build configuration list for PBXProject "Section5.36(Tap ME Fast Raction Based Game)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A0C4D1D224875F800D9224C;
+			productRefGroup = 5A0C4D27224875F800D9224C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A0C4D25224875F800D9224C /* Section5.36(Tap ME Fast Raction Based Game) */,
+				5A0C4D40224875F900D9224C /* Section5.36(Tap ME Fast Raction Based Game)Tests */,
+				5A0C4D4B224875F900D9224C /* Section5.36(Tap ME Fast Raction Based Game)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A0C4D24224875F800D9224C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0C4D39224875F900D9224C /* LaunchScreen.storyboard in Resources */,
+				5A0C4D36224875F900D9224C /* Assets.xcassets in Resources */,
+				5A0C4D31224875F800D9224C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A0C4D3F224875F900D9224C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A0C4D4A224875F900D9224C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A0C4D22224875F800D9224C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0C4D2E224875F800D9224C /* ViewController.m in Sources */,
+				5A0C4D34224875F800D9224C /* Section5_36_Tap_ME_Fast_Raction_Based_Game_.xcdatamodeld in Sources */,
+				5A0C4D3C224875F900D9224C /* main.m in Sources */,
+				5A0C4D2B224875F800D9224C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A0C4D3D224875F900D9224C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0C4D46224875F900D9224C /* Section5_36_Tap_ME_Fast_Raction_Based_Game_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A0C4D48224875F900D9224C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0C4D51224875F900D9224C /* Section5_36_Tap_ME_Fast_Raction_Based_Game_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A0C4D43224875F900D9224C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A0C4D25224875F800D9224C /* Section5.36(Tap ME Fast Raction Based Game) */;
+			targetProxy = 5A0C4D42224875F900D9224C /* PBXContainerItemProxy */;
+		};
+		5A0C4D4E224875F900D9224C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A0C4D25224875F800D9224C /* Section5.36(Tap ME Fast Raction Based Game) */;
+			targetProxy = 5A0C4D4D224875F900D9224C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A0C4D2F224875F800D9224C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A0C4D30224875F800D9224C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A0C4D37224875F900D9224C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A0C4D38224875F900D9224C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A0C4D53224875F900D9224C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A0C4D54224875F900D9224C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A0C4D56224875F900D9224C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N49T88F69F;
+				INFOPLIST_FILE = "Section5.36(Tap ME Fast Raction Based Game)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Section5-36-Tap-ME-Fast-Raction-Based-Game-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A0C4D57224875F900D9224C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N49T88F69F;
+				INFOPLIST_FILE = "Section5.36(Tap ME Fast Raction Based Game)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Section5-36-Tap-ME-Fast-Raction-Based-Game-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A0C4D59224875F900D9224C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N49T88F69F;
+				INFOPLIST_FILE = "Section5.36(Tap ME Fast Raction Based Game)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Section5-36-Tap-ME-Fast-Raction-Based-Game-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Section5.36(Tap ME Fast Raction Based Game).app/Section5.36(Tap ME Fast Raction Based Game)";
+			};
+			name = Debug;
+		};
+		5A0C4D5A224875F900D9224C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N49T88F69F;
+				INFOPLIST_FILE = "Section5.36(Tap ME Fast Raction Based Game)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Section5-36-Tap-ME-Fast-Raction-Based-Game-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Section5.36(Tap ME Fast Raction Based Game).app/Section5.36(Tap ME Fast Raction Based Game)";
+			};
+			name = Release;
+		};
+		5A0C4D5C224875F900D9224C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N49T88F69F;
+				INFOPLIST_FILE = "Section5.36(Tap ME Fast Raction Based Game)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Section5-36-Tap-ME-Fast-Raction-Based-Game-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Section5.36(Tap ME Fast Raction Based Game)";
+			};
+			name = Debug;
+		};
+		5A0C4D5D224875F900D9224C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N49T88F69F;
+				INFOPLIST_FILE = "Section5.36(Tap ME Fast Raction Based Game)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Section5-36-Tap-ME-Fast-Raction-Based-Game-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Section5.36(Tap ME Fast Raction Based Game)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A0C4D21224875F800D9224C /* Build configuration list for PBXProject "Section5.36(Tap ME Fast Raction Based Game)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A0C4D53224875F900D9224C /* Debug */,
+				5A0C4D54224875F900D9224C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A0C4D55224875F900D9224C /* Build configuration list for PBXNativeTarget "Section5.36(Tap ME Fast Raction Based Game)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A0C4D56224875F900D9224C /* Debug */,
+				5A0C4D57224875F900D9224C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A0C4D58224875F900D9224C /* Build configuration list for PBXNativeTarget "Section5.36(Tap ME Fast Raction Based Game)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A0C4D59224875F900D9224C /* Debug */,
+				5A0C4D5A224875F900D9224C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A0C4D5B224875F900D9224C /* Build configuration list for PBXNativeTarget "Section5.36(Tap ME Fast Raction Based Game)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A0C4D5C224875F900D9224C /* Debug */,
+				5A0C4D5D224875F900D9224C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A0C4D32224875F800D9224C /* Section5_36_Tap_ME_Fast_Raction_Based_Game_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A0C4D33224875F800D9224C /* Section5_36_Tap_ME_Fast_Raction_Based_Game_.xcdatamodel */,
+			);
+			currentVersion = 5A0C4D33224875F800D9224C /* Section5_36_Tap_ME_Fast_Raction_Based_Game_.xcdatamodel */;
+			path = Section5_36_Tap_ME_Fast_Raction_Based_Game_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5A0C4D1E224875F800D9224C /* Project object */;
+}

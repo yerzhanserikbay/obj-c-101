@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="RxZ-Ed-Po9">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fact Bank" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zd4-7H-QSt">
+                                <rect key="frame" x="16" y="32" width="343" height="119"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="119" id="oTq-N2-Y5Q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="57"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap the Brain" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygM-nF-upi">
+                                <rect key="frame" x="16" y="168" width="343" height="227"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cd2-bm-F5P">
+                                <rect key="frame" x="36" y="418" width="303" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="cd2-bm-F5P" secondAttribute="height" multiplier="303:200" id="o7w-MP-z5q"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="Brain"/>
+                                <connections>
+                                    <action selector="brainAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZgT-xY-E5I"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ygM-nF-upi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="0Tx-l4-kqH"/>
+                            <constraint firstItem="cd2-bm-F5P" firstAttribute="top" secondItem="ygM-nF-upi" secondAttribute="bottom" constant="23" id="0ZM-03-opm"/>
+                            <constraint firstItem="Zd4-7H-QSt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="0uV-cg-UaM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cd2-bm-F5P" secondAttribute="bottom" constant="49" id="7Uy-hh-Ymf"/>
+                            <constraint firstItem="RxZ-Ed-Po9" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="A7C-8H-FNw"/>
+                            <constraint firstItem="RxZ-Ed-Po9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LqO-yB-Ng9"/>
+                            <constraint firstItem="RxZ-Ed-Po9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Oq8-h2-qG4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ygM-nF-upi" secondAttribute="trailing" constant="16" id="QYU-eN-Yff"/>
+                            <constraint firstItem="ygM-nF-upi" firstAttribute="top" secondItem="Zd4-7H-QSt" secondAttribute="bottom" constant="17" id="Qhl-Rb-3Ew"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zd4-7H-QSt" secondAttribute="trailing" constant="16" id="bc7-Lz-t9O"/>
+                            <constraint firstAttribute="bottom" secondItem="RxZ-Ed-Po9" secondAttribute="bottom" id="eGF-L4-eri"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cd2-bm-F5P" secondAttribute="trailing" constant="36" id="f4g-U5-7UW"/>
+                            <constraint firstItem="cd2-bm-F5P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="n1T-0s-VUx"/>
+                            <constraint firstItem="Zd4-7H-QSt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="udw-2F-xdA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="mainLabel" destination="Zd4-7H-QSt" id="4lF-JR-Iaw"/>
+                        <outlet property="tapTheBrainLabel" destination="ygM-nF-upi" id="Yob-9j-jHo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Brain" width="460" height="340"/>
+        <image name="background" width="1920" height="1080"/>
+    </resources>
+</document>
