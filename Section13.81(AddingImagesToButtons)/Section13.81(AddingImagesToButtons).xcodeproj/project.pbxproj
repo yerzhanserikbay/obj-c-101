@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A4E6957224BCB6600792245 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E6956224BCB6600792245 /* AppDelegate.m */; };
+		5A4E695A224BCB6600792245 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E6959224BCB6600792245 /* ViewController.m */; };
+		5A4E695D224BCB6600792245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4E695B224BCB6600792245 /* Main.storyboard */; };
+		5A4E6960224BCB6600792245 /* Section13_81_AddingImagesToButtons_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E695E224BCB6600792245 /* Section13_81_AddingImagesToButtons_.xcdatamodeld */; };
+		5A4E6962224BCB6700792245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4E6961224BCB6700792245 /* Assets.xcassets */; };
+		5A4E6965224BCB6700792245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4E6963224BCB6700792245 /* LaunchScreen.storyboard */; };
+		5A4E6968224BCB6700792245 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E6967224BCB6700792245 /* main.m */; };
+		5A4E6972224BCB6800792245 /* Section13_81_AddingImagesToButtons_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E6971224BCB6800792245 /* Section13_81_AddingImagesToButtons_Tests.m */; };
+		5A4E697D224BCB6800792245 /* Section13_81_AddingImagesToButtons_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E697C224BCB6800792245 /* Section13_81_AddingImagesToButtons_UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A4E696E224BCB6800792245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4E694A224BCB6600792245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4E6951224BCB6600792245;
+			remoteInfo = "Section13.81(AddingImagesToButtons)";
+		};
+		5A4E6979224BCB6800792245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4E694A224BCB6600792245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4E6951224BCB6600792245;
+			remoteInfo = "Section13.81(AddingImagesToButtons)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A4E6952224BCB6600792245 /* Section13.81(AddingImagesToButtons).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Section13.81(AddingImagesToButtons).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4E6955224BCB6600792245 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A4E6956224BCB6600792245 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A4E6958224BCB6600792245 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A4E6959224BCB6600792245 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A4E695C224BCB6600792245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A4E695F224BCB6600792245 /* Section13_81_AddingImagesToButtons_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Section13_81_AddingImagesToButtons_.xcdatamodel; sourceTree = "<group>"; };
+		5A4E6961224BCB6700792245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A4E6964224BCB6700792245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A4E6966224BCB6700792245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A4E6967224BCB6700792245 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A4E696D224BCB6800792245 /* Section13.81(AddingImagesToButtons)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Section13.81(AddingImagesToButtons)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4E6971224BCB6800792245 /* Section13_81_AddingImagesToButtons_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Section13_81_AddingImagesToButtons_Tests.m; sourceTree = "<group>"; };
+		5A4E6973224BCB6800792245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A4E6978224BCB6800792245 /* Section13.81(AddingImagesToButtons)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Section13.81(AddingImagesToButtons)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4E697C224BCB6800792245 /* Section13_81_AddingImagesToButtons_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Section13_81_AddingImagesToButtons_UITests.m; sourceTree = "<group>"; };
+		5A4E697E224BCB6800792245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A4E694F224BCB6600792245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4E696A224BCB6800792245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4E6975224BCB6800792245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A4E6949224BCB6600792245 = {
+			isa = PBXGroup;
+			children = (
+				5A4E6954224BCB6600792245 /* Section13.81(AddingImagesToButtons) */,
+				5A4E6970224BCB6800792245 /* Section13.81(AddingImagesToButtons)Tests */,
+				5A4E697B224BCB6800792245 /* Section13.81(AddingImagesToButtons)UITests */,
+				5A4E6953224BCB6600792245 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A4E6953224BCB6600792245 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A4E6952224BCB6600792245 /* Section13.81(AddingImagesToButtons).app */,
+				5A4E696D224BCB6800792245 /* Section13.81(AddingImagesToButtons)Tests.xctest */,
+				5A4E6978224BCB6800792245 /* Section13.81(AddingImagesToButtons)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A4E6954224BCB6600792245 /* Section13.81(AddingImagesToButtons) */ = {
+			isa = PBXGroup;
+			children = (
+				5A4E6955224BCB6600792245 /* AppDelegate.h */,
+				5A4E6956224BCB6600792245 /* AppDelegate.m */,
+				5A4E6958224BCB6600792245 /* ViewController.h */,
+				5A4E6959224BCB6600792245 /* ViewController.m */,
+				5A4E695B224BCB6600792245 /* Main.storyboard */,
+				5A4E6961224BCB6700792245 /* Assets.xcassets */,
+				5A4E6963224BCB6700792245 /* LaunchScreen.storyboard */,
+				5A4E6966224BCB6700792245 /* Info.plist */,
+				5A4E6967224BCB6700792245 /* main.m */,
+				5A4E695E224BCB6600792245 /* Section13_81_AddingImagesToButtons_.xcdatamodeld */,
+			);
+			path = "Section13.81(AddingImagesToButtons)";
+			sourceTree = "<group>";
+		};
+		5A4E6970224BCB6800792245 /* Section13.81(AddingImagesToButtons)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5A4E6971224BCB6800792245 /* Section13_81_AddingImagesToButtons_Tests.m */,
+				5A4E6973224BCB6800792245 /* Info.plist */,
+			);
+			path = "Section13.81(AddingImagesToButtons)Tests";
+			sourceTree = "<group>";
+		};
+		5A4E697B224BCB6800792245 /* Section13.81(AddingImagesToButtons)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A4E697C224BCB6800792245 /* Section13_81_AddingImagesToButtons_UITests.m */,
+				5A4E697E224BCB6800792245 /* Info.plist */,
+			);
+			path = "Section13.81(AddingImagesToButtons)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A4E6951224BCB6600792245 /* Section13.81(AddingImagesToButtons) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4E6981224BCB6800792245 /* Build configuration list for PBXNativeTarget "Section13.81(AddingImagesToButtons)" */;
+			buildPhases = (
+				5A4E694E224BCB6600792245 /* Sources */,
+				5A4E694F224BCB6600792245 /* Frameworks */,
+				5A4E6950224BCB6600792245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Section13.81(AddingImagesToButtons)";
+			productName = "Section13.81(AddingImagesToButtons)";
+			productReference = 5A4E6952224BCB6600792245 /* Section13.81(AddingImagesToButtons).app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A4E696C224BCB6800792245 /* Section13.81(AddingImagesToButtons)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4E6984224BCB6800792245 /* Build configuration list for PBXNativeTarget "Section13.81(AddingImagesToButtons)Tests" */;
+			buildPhases = (
+				5A4E6969224BCB6800792245 /* Sources */,
+				5A4E696A224BCB6800792245 /* Frameworks */,
+				5A4E696B224BCB6800792245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4E696F224BCB6800792245 /* PBXTargetDependency */,
+			);
+			name = "Section13.81(AddingImagesToButtons)Tests";
+			productName = "Section13.81(AddingImagesToButtons)Tests";
+			productReference = 5A4E696D224BCB6800792245 /* Section13.81(AddingImagesToButtons)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A4E6977224BCB6800792245 /* Section13.81(AddingImagesToButtons)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4E6987224BCB6800792245 /* Build configuration list for PBXNativeTarget "Section13.81(AddingImagesToButtons)UITests" */;
+			buildPhases = (
+				5A4E6974224BCB6800792245 /* Sources */,
+				5A4E6975224BCB6800792245 /* Frameworks */,
+				5A4E6976224BCB6800792245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4E697A224BCB6800792245 /* PBXTargetDependency */,
+			);
+			name = "Section13.81(AddingImagesToButtons)UITests";
+			productName = "Section13.81(AddingImagesToButtons)UITests";
+			productReference = 5A4E6978224BCB6800792245 /* Section13.81(AddingImagesToButtons)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A4E694A224BCB6600792245 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = YS;
+				TargetAttributes = {
+					5A4E6951224BCB6600792245 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					5A4E696C224BCB6800792245 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 5A4E6951224BCB6600792245;
+					};
+					5A4E6977224BCB6800792245 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 5A4E6951224BCB6600792245;
+					};
+				};
+			};
+			buildConfigurationList = 5A4E694D224BCB6600792245 /* Build configuration list for PBXProject "Section13.81(AddingImagesToButtons)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A4E6949224BCB6600792245;
+			productRefGroup = 5A4E6953224BCB6600792245 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A4E6951224BCB6600792245 /* Section13.81(AddingImagesToButtons) */,
+				5A4E696C224BCB6800792245 /* Section13.81(AddingImagesToButtons)Tests */,
+				5A4E6977224BCB6800792245 /* Section13.81(AddingImagesToButtons)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A4E6950224BCB6600792245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4E6965224BCB6700792245 /* LaunchScreen.storyboard in Resources */,
+				5A4E6962224BCB6700792245 /* Assets.xcassets in Resources */,
+				5A4E695D224BCB6600792245 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4E696B224BCB6800792245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4E6976224BCB6800792245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A4E694E224BCB6600792245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4E695A224BCB6600792245 /* ViewController.m in Sources */,
+				5A4E6960224BCB6600792245 /* Section13_81_AddingImagesToButtons_.xcdatamodeld in Sources */,
+				5A4E6968224BCB6700792245 /* main.m in Sources */,
+				5A4E6957224BCB6600792245 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4E6969224BCB6800792245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4E6972224BCB6800792245 /* Section13_81_AddingImagesToButtons_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4E6974224BCB6800792245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4E697D224BCB6800792245 /* Section13_81_AddingImagesToButtons_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A4E696F224BCB6800792245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A4E6951224BCB6600792245 /* Section13.81(AddingImagesToButtons) */;
+			targetProxy = 5A4E696E224BCB6800792245 /* PBXContainerItemProxy */;
+		};
+		5A4E697A224BCB6800792245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A4E6951224BCB6600792245 /* Section13.81(AddingImagesToButtons) */;
+			targetProxy = 5A4E6979224BCB6800792245 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A4E695B224BCB6600792245 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4E695C224BCB6600792245 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A4E6963224BCB6700792245 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4E6964224BCB6700792245 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A4E697F224BCB6800792245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A4E6980224BCB6800792245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A4E6982224BCB6800792245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N49T88F69F;
+				INFOPLIST_FILE = "Section13.81(AddingImagesToButtons)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Section13-81-AddingImagesToButtons-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A4E6983224BCB6800792245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N49T88F69F;
+				INFOPLIST_FILE = "Section13.81(AddingImagesToButtons)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Section13-81-AddingImagesToButtons-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A4E6985224BCB6800792245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N49T88F69F;
+				INFOPLIST_FILE = "Section13.81(AddingImagesToButtons)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Section13-81-AddingImagesToButtons-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Section13.81(AddingImagesToButtons).app/Section13.81(AddingImagesToButtons)";
+			};
+			name = Debug;
+		};
+		5A4E6986224BCB6800792245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N49T88F69F;
+				INFOPLIST_FILE = "Section13.81(AddingImagesToButtons)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Section13-81-AddingImagesToButtons-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Section13.81(AddingImagesToButtons).app/Section13.81(AddingImagesToButtons)";
+			};
+			name = Release;
+		};
+		5A4E6988224BCB6800792245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N49T88F69F;
+				INFOPLIST_FILE = "Section13.81(AddingImagesToButtons)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Section13-81-AddingImagesToButtons-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Section13.81(AddingImagesToButtons)";
+			};
+			name = Debug;
+		};
+		5A4E6989224BCB6800792245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N49T88F69F;
+				INFOPLIST_FILE = "Section13.81(AddingImagesToButtons)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Section13-81-AddingImagesToButtons-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Section13.81(AddingImagesToButtons)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A4E694D224BCB6600792245 /* Build configuration list for PBXProject "Section13.81(AddingImagesToButtons)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4E697F224BCB6800792245 /* Debug */,
+				5A4E6980224BCB6800792245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4E6981224BCB6800792245 /* Build configuration list for PBXNativeTarget "Section13.81(AddingImagesToButtons)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4E6982224BCB6800792245 /* Debug */,
+				5A4E6983224BCB6800792245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4E6984224BCB6800792245 /* Build configuration list for PBXNativeTarget "Section13.81(AddingImagesToButtons)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4E6985224BCB6800792245 /* Debug */,
+				5A4E6986224BCB6800792245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4E6987224BCB6800792245 /* Build configuration list for PBXNativeTarget "Section13.81(AddingImagesToButtons)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4E6988224BCB6800792245 /* Debug */,
+				5A4E6989224BCB6800792245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A4E695E224BCB6600792245 /* Section13_81_AddingImagesToButtons_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A4E695F224BCB6600792245 /* Section13_81_AddingImagesToButtons_.xcdatamodel */,
+			);
+			currentVersion = 5A4E695F224BCB6600792245 /* Section13_81_AddingImagesToButtons_.xcdatamodel */;
+			path = Section13_81_AddingImagesToButtons_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5A4E694A224BCB6600792245 /* Project object */;
+}
