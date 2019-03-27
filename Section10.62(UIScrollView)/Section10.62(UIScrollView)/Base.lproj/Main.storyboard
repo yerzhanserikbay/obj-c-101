@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I4R-3P-f5S">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tZH-fF-nJt">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRJ-nj-HPX">
+                                                <rect key="frame" x="8" y="52" width="398" height="181"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="181" id="OTv-Av-clE"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="54"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="gJG-3i-EhS">
+                                                <rect key="frame" x="8" y="807" width="398" height="28"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <segments>
+                                                    <segment title="First"/>
+                                                    <segment title="Second"/>
+                                                </segments>
+                                            </segmentedControl>
+                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="F6j-4z-pT6">
+                                                <rect key="frame" x="8" y="1000" width="400" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </slider>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="oRJ-nj-HPX" firstAttribute="top" secondItem="tZH-fF-nJt" secondAttribute="top" constant="52" id="KvQ-AD-ygr"/>
+                                            <constraint firstItem="oRJ-nj-HPX" firstAttribute="leading" secondItem="tZH-fF-nJt" secondAttribute="leading" constant="8" id="cgV-8G-Bcs"/>
+                                            <constraint firstAttribute="trailing" secondItem="oRJ-nj-HPX" secondAttribute="trailing" constant="8" id="iba-fe-gif"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="tZH-fF-nJt" firstAttribute="top" secondItem="I4R-3P-f5S" secondAttribute="top" id="38q-g7-Z6L"/>
+                                    <constraint firstAttribute="trailing" secondItem="tZH-fF-nJt" secondAttribute="trailing" id="Efv-TD-2x7"/>
+                                    <constraint firstItem="tZH-fF-nJt" firstAttribute="centerY" secondItem="I4R-3P-f5S" secondAttribute="centerY" id="aHb-hd-wzY"/>
+                                    <constraint firstItem="tZH-fF-nJt" firstAttribute="leading" secondItem="I4R-3P-f5S" secondAttribute="leading" id="l3m-hR-jLM"/>
+                                    <constraint firstAttribute="bottom" secondItem="tZH-fF-nJt" secondAttribute="bottom" id="s9d-xA-mYG"/>
+                                    <constraint firstItem="tZH-fF-nJt" firstAttribute="centerX" secondItem="I4R-3P-f5S" secondAttribute="centerX" id="xY8-5U-DVa"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="I4R-3P-f5S" secondAttribute="bottom" id="2TU-9T-UnJ"/>
+                            <constraint firstItem="I4R-3P-f5S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HKq-3S-L97"/>
+                            <constraint firstItem="I4R-3P-f5S" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Vld-c1-E2c"/>
+                            <constraint firstItem="I4R-3P-f5S" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zJl-oI-An9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="I4R-3P-f5S" id="TaQ-bj-kLA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="112.5"/>
+        </scene>
+    </scenes>
+</document>
