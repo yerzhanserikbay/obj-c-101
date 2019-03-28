@@ -20,4 +20,10 @@
 }
 
 
+- (IBAction)selectDate:(id)sender {
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"E, d MMM yyyy HH:mm:ss Z"];
+    self.label.text = [dateFormat stringFromDate:self.datePicker.date];
+}
+
 @end

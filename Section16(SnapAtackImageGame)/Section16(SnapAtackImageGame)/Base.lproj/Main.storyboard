@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cheveuxdange.ttf">
+            <string>Cheveuxdange</string>
+        </array>
+        <array key="DK Cinnabar Brush.ttf">
+            <string>DKCinnabarBrush</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Table" translatesAutoresizingMaskIntoConstraints="NO" id="2R2-kJ-l09">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snap Attack" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="X6P-YP-5Td">
+                                <rect key="frame" x="28" y="44.000000000000007" width="319" height="78.666666666666686"/>
+                                <fontDescription key="fontDescription" name="DKCinnabarBrush" family="DK Cinnabar Brush" pointSize="53"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ZmR-yy-y1o">
+                                <rect key="frame" x="228" y="130.66666666666666" width="131" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="C7l-Kv-xXN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cheveuxdange" family="Cheveuxdange" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blue_cover" translatesAutoresizingMaskIntoConstraints="NO" id="IXv-h6-8Bk">
+                                <rect key="frame" x="16" y="294.66666666666669" width="153.66666666666666" height="253.00000000000006"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="253" id="Zso-NT-xa8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time: 20" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="wjl-Pj-sYc">
+                                <rect key="frame" x="16" y="130.66666666666666" width="131" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="krb-SS-4EI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cheveuxdange" family="Cheveuxdange" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uxY-sH-Stl">
+                                <rect key="frame" x="103" y="624.66666666666663" width="169" height="78.333333333333371"/>
+                                <fontDescription key="fontDescription" name="DKCinnabarBrush" family="DK Cinnabar Brush" pointSize="50"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="startGameAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CSG-q8-whb"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blue_cover" translatesAutoresizingMaskIntoConstraints="NO" id="SHQ-xo-JWl">
+                                <rect key="frame" x="205.66666666666663" y="294.66666666666669" width="153.33333333333337" height="253.00000000000006"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="253" id="0Uv-5E-ywG"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2R2-kJ-l09" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="2vE-BN-poI"/>
+                            <constraint firstItem="wjl-Pj-sYc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5oE-0I-XeM"/>
+                            <constraint firstItem="IXv-h6-8Bk" firstAttribute="top" secondItem="SHQ-xo-JWl" secondAttribute="top" id="7zj-KB-wuW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uxY-sH-Stl" secondAttribute="bottom" constant="75" id="DJp-bS-Fpa"/>
+                            <constraint firstItem="uxY-sH-Stl" firstAttribute="top" secondItem="IXv-h6-8Bk" secondAttribute="bottom" constant="77" id="HpA-l9-dBs"/>
+                            <constraint firstItem="ZmR-yy-y1o" firstAttribute="width" secondItem="wjl-Pj-sYc" secondAttribute="width" id="Idu-wT-0KG"/>
+                            <constraint firstItem="SHQ-xo-JWl" firstAttribute="width" secondItem="IXv-h6-8Bk" secondAttribute="width" id="L41-Si-Qd4"/>
+                            <constraint firstItem="wjl-Pj-sYc" firstAttribute="leading" secondItem="IXv-h6-8Bk" secondAttribute="leading" id="NE1-QR-x2D"/>
+                            <constraint firstItem="2R2-kJ-l09" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RwF-DJ-e9y"/>
+                            <constraint firstAttribute="bottom" secondItem="2R2-kJ-l09" secondAttribute="bottom" id="TqF-tV-KjT"/>
+                            <constraint firstItem="X6P-YP-5Td" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="a7C-KC-1Em"/>
+                            <constraint firstItem="ZmR-yy-y1o" firstAttribute="trailing" secondItem="SHQ-xo-JWl" secondAttribute="trailing" id="aRj-D3-KZp"/>
+                            <constraint firstItem="2R2-kJ-l09" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="b8U-gI-xkr"/>
+                            <constraint firstItem="X6P-YP-5Td" firstAttribute="centerX" secondItem="2R2-kJ-l09" secondAttribute="centerX" id="efQ-pO-W8K"/>
+                            <constraint firstItem="uxY-sH-Stl" firstAttribute="height" secondItem="X6P-YP-5Td" secondAttribute="height" id="esF-Ae-Fdx"/>
+                            <constraint firstItem="wjl-Pj-sYc" firstAttribute="top" secondItem="X6P-YP-5Td" secondAttribute="bottom" constant="8" symbolic="YES" id="fYQ-yp-gdL"/>
+                            <constraint firstItem="wjl-Pj-sYc" firstAttribute="baseline" secondItem="ZmR-yy-y1o" secondAttribute="baseline" id="gey-uS-kAq"/>
+                            <constraint firstItem="SHQ-xo-JWl" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="gfm-0V-ztg"/>
+                            <constraint firstItem="X6P-YP-5Td" firstAttribute="centerX" secondItem="uxY-sH-Stl" secondAttribute="centerX" id="hHz-sU-tAY"/>
+                            <constraint firstItem="SHQ-xo-JWl" firstAttribute="leading" secondItem="IXv-h6-8Bk" secondAttribute="trailing" constant="36" id="p8v-4Y-xxe"/>
+                            <constraint firstItem="uxY-sH-Stl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="sNU-i1-s65"/>
+                            <constraint firstItem="ZmR-yy-y1o" firstAttribute="leading" secondItem="wjl-Pj-sYc" secondAttribute="trailing" constant="81" id="vRN-z9-aVe"/>
+                            <constraint firstItem="IXv-h6-8Bk" firstAttribute="top" secondItem="wjl-Pj-sYc" secondAttribute="bottom" constant="94" id="vgW-H2-hSB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="leftCardImageView" destination="IXv-h6-8Bk" id="sg2-4s-Hzv"/>
+                        <outlet property="rightCardImageView" destination="SHQ-xo-JWl" id="FFc-6m-ata"/>
+                        <outlet property="scoreLabel" destination="ZmR-yy-y1o" id="qIt-xT-A0g"/>
+                        <outlet property="startButton" destination="uxY-sH-Stl" id="4dZ-b5-X11"/>
+                        <outlet property="timeLabel" destination="wjl-Pj-sYc" id="P0v-3V-bQp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="112.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Table" width="1980" height="1200"/>
+        <image name="blue_cover" width="500" height="726"/>
+    </resources>
+</document>
