@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Cats</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Cheetah</string>
+			<key>Image</key>
+			<string>Cheetah</string>
+			<key>Life Span</key>
+			<string>10-12 years</string>
+			<key>Description</key>
+			<string>Cheetah Description</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Leopard</string>
+			<key>Image</key>
+			<string>Leopard</string>
+			<key>Life Span</key>
+			<string>12-15 years</string>
+			<key>Description</key>
+			<string>Leopard Description</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Lion</string>
+			<key>Image</key>
+			<string>Lion</string>
+			<key>Life Span</key>
+			<string>10-14 years</string>
+			<key>Description</key>
+			<string>Lion Description</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Tiger</string>
+			<key>Image</key>
+			<string>Tiger</string>
+			<key>Life Span</key>
+			<string>20-26 years</string>
+			<key>Description</key>
+			<string>Tiger Description</string>
+		</dict>
+	</array>
+</dict>
+</plist>
