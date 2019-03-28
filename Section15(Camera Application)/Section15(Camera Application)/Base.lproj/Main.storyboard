@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHq-L6-3rb">
+                                <rect key="frame" x="20" y="424.5" width="374" height="65.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Take Photo">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="takePhotoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Tm-AO-Ec0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wBI-AO-0Vk">
+                                <rect key="frame" x="20" y="498" width="374" height="65.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Choose Photo">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="choosePhotoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="47I-nw-jCy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3H-tP-rCO">
+                                <rect key="frame" x="20" y="571.5" width="374" height="65.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Save Photo">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="savePhotoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SDI-KK-Nwq"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XSa-wu-vhT">
+                                <rect key="frame" x="20" y="80" width="374" height="244.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="XSa-wu-vhT" secondAttribute="height" multiplier="335:219" id="R3h-KD-6Ok"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XSa-wu-vhT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="5TB-VG-rG1"/>
+                            <constraint firstItem="K3H-tP-rCO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="5eX-JA-Z51"/>
+                            <constraint firstItem="XSa-wu-vhT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="36" id="8Ip-82-BlQ"/>
+                            <constraint firstItem="wBI-AO-0Vk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="8Lq-or-fOm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="K3H-tP-rCO" secondAttribute="trailing" constant="20" id="8VH-hE-7pc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gHq-L6-3rb" secondAttribute="trailing" constant="20" id="DQj-kM-CVe"/>
+                            <constraint firstItem="wBI-AO-0Vk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="M6R-Ft-amG"/>
+                            <constraint firstItem="K3H-tP-rCO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="NZH-cD-MA0"/>
+                            <constraint firstItem="wBI-AO-0Vk" firstAttribute="top" secondItem="gHq-L6-3rb" secondAttribute="bottom" constant="8" id="Vom-lc-VV3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XSa-wu-vhT" secondAttribute="trailing" constant="20" id="cLp-sd-3RL"/>
+                            <constraint firstItem="wBI-AO-0Vk" firstAttribute="height" secondItem="gHq-L6-3rb" secondAttribute="height" id="fb2-Cb-Kse"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wBI-AO-0Vk" secondAttribute="trailing" constant="20" id="fmt-Pi-PdQ"/>
+                            <constraint firstItem="K3H-tP-rCO" firstAttribute="height" secondItem="gHq-L6-3rb" secondAttribute="height" id="fsW-Ly-p3e"/>
+                            <constraint firstItem="gHq-L6-3rb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jMT-3J-ovU"/>
+                            <constraint firstItem="gHq-L6-3rb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="m4k-n5-7z1"/>
+                            <constraint firstItem="gHq-L6-3rb" firstAttribute="top" secondItem="XSa-wu-vhT" secondAttribute="bottom" constant="100" id="mM8-1r-4gl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="K3H-tP-rCO" secondAttribute="trailing" constant="20" id="p2c-Ug-5Kx"/>
+                            <constraint firstItem="K3H-tP-rCO" firstAttribute="top" secondItem="wBI-AO-0Vk" secondAttribute="bottom" constant="8" id="uxF-hD-zXF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wBI-AO-0Vk" secondAttribute="trailing" constant="20" id="vdq-KY-Sna"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gHq-L6-3rb" secondAttribute="trailing" constant="20" id="xBG-UB-iac"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="K3H-tP-rCO" secondAttribute="bottom" constant="225" id="y6E-J0-oU5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="XSa-wu-vhT" id="8hx-FO-79S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="112.5"/>
+        </scene>
+    </scenes>
+</document>
