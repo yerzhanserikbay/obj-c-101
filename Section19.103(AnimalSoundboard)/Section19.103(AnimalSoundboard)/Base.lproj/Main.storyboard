@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="0mJ-7h-ngb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xan-Qs-Ls9">
+                                <rect key="frame" x="16" y="44" width="382" height="818"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="EA9-SM-ivm">
+                                        <rect key="frame" x="0.0" y="0.0" width="186" height="818"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mrg-TG-4Sb">
+                                                <rect key="frame" x="0.0" y="0.0" width="186" height="266"/>
+                                                <state key="normal" title="Button" image="Cat"/>
+                                                <connections>
+                                                    <action selector="catButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r73-vb-Yie"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xLj-rP-8e5">
+                                                <rect key="frame" x="0.0" y="276" width="186" height="266"/>
+                                                <state key="normal" title="Button" image="Frog"/>
+                                                <connections>
+                                                    <action selector="frogButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9ia-JS-8vS"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hjV-tU-Jg9">
+                                                <rect key="frame" x="0.0" y="552" width="186" height="266"/>
+                                                <state key="normal" title="Button" image="Dog"/>
+                                                <connections>
+                                                    <action selector="dogButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QBX-2j-ZlG"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="AQn-hn-zya">
+                                        <rect key="frame" x="196" y="0.0" width="186" height="818"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2CM-K2-BaO">
+                                                <rect key="frame" x="0.0" y="0.0" width="186" height="266"/>
+                                                <state key="normal" title="Button" image="Pig"/>
+                                                <connections>
+                                                    <action selector="pigButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pfT-ia-SWa"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A1L-vH-q05">
+                                                <rect key="frame" x="0.0" y="276" width="186" height="266"/>
+                                                <state key="normal" title="Button" image="Sheep"/>
+                                                <connections>
+                                                    <action selector="shipButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Yz-uh-UpZ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TAN-1c-aMo">
+                                                <rect key="frame" x="0.0" y="552" width="186" height="266"/>
+                                                <state key="normal" title="Button" image="Horse"/>
+                                                <connections>
+                                                    <action selector="horseButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eqj-4P-M0s"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0mJ-7h-ngb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BVx-2f-4fV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xan-Qs-Ls9" secondAttribute="trailing" constant="16" id="MCc-ca-nol"/>
+                            <constraint firstItem="0mJ-7h-ngb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="OGY-se-ROe"/>
+                            <constraint firstItem="xan-Qs-Ls9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="VaI-Az-pxM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xan-Qs-Ls9" secondAttribute="bottom" id="YkX-bG-Dn8"/>
+                            <constraint firstItem="0mJ-7h-ngb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="arL-ja-H4T"/>
+                            <constraint firstItem="xan-Qs-Ls9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mDa-8k-178"/>
+                            <constraint firstAttribute="bottom" secondItem="0mJ-7h-ngb" secondAttribute="bottom" id="rT5-2Q-ooN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="catButton" destination="Mrg-TG-4Sb" id="T6D-xG-xu5"/>
+                        <outlet property="dogButton" destination="hjV-tU-Jg9" id="xh8-wX-3lT"/>
+                        <outlet property="frogButton" destination="xLj-rP-8e5" id="55F-RX-VxT"/>
+                        <outlet property="horseButton" destination="TAN-1c-aMo" id="b6X-Rt-Jor"/>
+                        <outlet property="pigButton" destination="2CM-K2-BaO" id="ejw-MZ-cD0"/>
+                        <outlet property="shipButton" destination="A1L-vH-q05" id="7yY-0l-QaM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="112.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="1920" height="1200"/>
+        <image name="Cat" width="507" height="800"/>
+        <image name="Dog" width="555" height="744"/>
+        <image name="Frog" width="794" height="900"/>
+        <image name="Horse" width="510" height="594"/>
+        <image name="Pig" width="667" height="745"/>
+        <image name="Sheep" width="576" height="600"/>
+    </resources>
+</document>
