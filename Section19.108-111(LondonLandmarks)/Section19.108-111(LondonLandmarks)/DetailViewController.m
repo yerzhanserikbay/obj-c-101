@@ -46,6 +46,8 @@
     ann.coordinate = location;
     
     [self.mapView addAnnotation: ann];
+    
+    
 }
 
 
@@ -59,5 +61,7 @@
 - (IBAction)directionsButtonPressed:(id)sender {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://maps.apple.com/?daddr=%@,%@", self.detailModal[4], self.detailModal[5]]] options:@{} completionHandler:nil];
 }
+
+
 
 @end
