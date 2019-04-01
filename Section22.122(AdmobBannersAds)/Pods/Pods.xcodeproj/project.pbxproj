@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A471D79F14FA089F432F7634693A2EF5 /* Pods-Section22.122(AdmobBannersAds)Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC5463B503EEC21F341C54A21564EA /* Pods-Section22.122(AdmobBannersAds)Tests-dummy.m */; };
+		AC37168B07ABFB9CF09E69D914393648 /* Pods-Section22.122(AdmobBannersAds)UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 981D3610C1AD4B0AD1DDC7F72E1448E9 /* Pods-Section22.122(AdmobBannersAds)UITests-dummy.m */; };
+		DFCC8AF40144B904F302C8230E4229DE /* Pods-Section22.122(AdmobBannersAds)-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1438DA78EF5489961AA8A651E92878 /* Pods-Section22.122(AdmobBannersAds)-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		198A8B0E419A7943F438F02001D37CFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 007B11DB223015F89A52A4AF968FD9AA;
+			remoteInfo = "Pods-Section22.122(AdmobBannersAds)";
+		};
+		590EBB4D9849E854A6CACB373505083D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 007B11DB223015F89A52A4AF968FD9AA;
+			remoteInfo = "Pods-Section22.122(AdmobBannersAds)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06C58297EE7179CF62FE27FE6831F5B5 /* Pods-Section22.122(AdmobBannersAds)Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Section22.122(AdmobBannersAds)Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1426EFC4E0042BA859F5F20B3DD35921 /* Pods-Section22.122(AdmobBannersAds).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Section22.122(AdmobBannersAds).debug.xcconfig"; sourceTree = "<group>"; };
+		31F27EBA39DB2949301D33093A99F7A1 /* Pods-Section22.122(AdmobBannersAds)UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Section22.122(AdmobBannersAds)UITests-frameworks.sh"; sourceTree = "<group>"; };
+		34B3EF078E22922CA6B3A3242417BB13 /* libGoogleMobileAds.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleMobileAds.a; path = Libraries/libGoogleMobileAds.a; sourceTree = "<group>"; };
+		394C5557528637696E1B0007453D7D46 /* libPods-Section22.122(AdmobBannersAds).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Section22.122(AdmobBannersAds).a"; path = "libPods-Section22.122(AdmobBannersAds).a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41EFE3E6A36DFC0F6D7C992BFC2EFAEF /* Pods-Section22.122(AdmobBannersAds)UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Section22.122(AdmobBannersAds)UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4811C02BF90C3EAD4144844CF04AD699 /* Pods-Section22.122(AdmobBannersAds)-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Section22.122(AdmobBannersAds)-frameworks.sh"; sourceTree = "<group>"; };
+		4B1438DA78EF5489961AA8A651E92878 /* Pods-Section22.122(AdmobBannersAds)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Section22.122(AdmobBannersAds)-dummy.m"; sourceTree = "<group>"; };
+		679A59E6C9147715602F3EB5A7C3D4BB /* libPods-Section22.122(AdmobBannersAds)UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Section22.122(AdmobBannersAds)UITests.a"; path = "libPods-Section22.122(AdmobBannersAds)UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2CCB9192D813F79CF6D16EBA32BE17 /* Pods-Section22.122(AdmobBannersAds)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Section22.122(AdmobBannersAds)-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7CA7476EC0D71F1F5C68FA35BDF57B90 /* Pods-Section22.122(AdmobBannersAds)Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Section22.122(AdmobBannersAds)Tests-frameworks.sh"; sourceTree = "<group>"; };
+		800F348B306577257DBBDA158A5EDD5C /* Pods-Section22.122(AdmobBannersAds)-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Section22.122(AdmobBannersAds)-resources.sh"; sourceTree = "<group>"; };
+		82E5A7A7496CD05F22906C1DE2EE5D58 /* Pods-Section22.122(AdmobBannersAds)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Section22.122(AdmobBannersAds)UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F74865132EF1E7149D82A9B46B9A4F1 /* Pods-Section22.122(AdmobBannersAds)Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Section22.122(AdmobBannersAds)Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		981D3610C1AD4B0AD1DDC7F72E1448E9 /* Pods-Section22.122(AdmobBannersAds)UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Section22.122(AdmobBannersAds)UITests-dummy.m"; sourceTree = "<group>"; };
+		9ACC5463B503EEC21F341C54A21564EA /* Pods-Section22.122(AdmobBannersAds)Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Section22.122(AdmobBannersAds)Tests-dummy.m"; sourceTree = "<group>"; };
+		9E929E7C43365FD21388212A99EBBE68 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		ABA76FFBF095D1D4F367BF449A17F95B /* Pods-Section22.122(AdmobBannersAds)UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Section22.122(AdmobBannersAds)UITests-resources.sh"; sourceTree = "<group>"; };
+		AE0D0DE4F6F896A3078664BC716195AE /* libPods-Section22.122(AdmobBannersAds)Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Section22.122(AdmobBannersAds)Tests.a"; path = "libPods-Section22.122(AdmobBannersAds)Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96943259192F1EE3E00A6707BEC0781 /* Pods-Section22.122(AdmobBannersAds)Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Section22.122(AdmobBannersAds)Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9A7D1DFAE05745F24D034D49B7CD6C9 /* Pods-Section22.122(AdmobBannersAds)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Section22.122(AdmobBannersAds)Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DD319787EF08DB898DD40A7DF2BA3D12 /* Pods-Section22.122(AdmobBannersAds)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Section22.122(AdmobBannersAds)UITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF98C5B4177BB0AC59F5569A0B5A37B6 /* Pods-Section22.122(AdmobBannersAds)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Section22.122(AdmobBannersAds)Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB0C4DC133F676FC5685E635AF0F7F98 /* Pods-Section22.122(AdmobBannersAds)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Section22.122(AdmobBannersAds)-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED1D5737E78F46012F453618D1457595 /* Pods-Section22.122(AdmobBannersAds).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Section22.122(AdmobBannersAds).release.xcconfig"; sourceTree = "<group>"; };
+		F42A929520810A07E646F7F0E03CDE9D /* Pods-Section22.122(AdmobBannersAds)UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Section22.122(AdmobBannersAds)UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20A46F2876ADB361104F104CBD1CA8F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D5C746E08E9E001F32F83A48AC1CCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4236A2964793B3B3B6172F9F2100C55E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E780E822324F5C71820D4A0A5CE3E1D /* Pods-Section22.122(AdmobBannersAds)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B96943259192F1EE3E00A6707BEC0781 /* Pods-Section22.122(AdmobBannersAds)Tests-acknowledgements.markdown */,
+				06C58297EE7179CF62FE27FE6831F5B5 /* Pods-Section22.122(AdmobBannersAds)Tests-acknowledgements.plist */,
+				9ACC5463B503EEC21F341C54A21564EA /* Pods-Section22.122(AdmobBannersAds)Tests-dummy.m */,
+				7CA7476EC0D71F1F5C68FA35BDF57B90 /* Pods-Section22.122(AdmobBannersAds)Tests-frameworks.sh */,
+				8F74865132EF1E7149D82A9B46B9A4F1 /* Pods-Section22.122(AdmobBannersAds)Tests-resources.sh */,
+				DF98C5B4177BB0AC59F5569A0B5A37B6 /* Pods-Section22.122(AdmobBannersAds)Tests.debug.xcconfig */,
+				C9A7D1DFAE05745F24D034D49B7CD6C9 /* Pods-Section22.122(AdmobBannersAds)Tests.release.xcconfig */,
+			);
+			name = "Pods-Section22.122(AdmobBannersAds)Tests";
+			path = "Target Support Files/Pods-Section22.122(AdmobBannersAds)Tests";
+			sourceTree = "<group>";
+		};
+		774297CDD68C87756949044506C5E01A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6D1C12748FA431B569480DEE6CCE5CC /* Pods-Section22.122(AdmobBannersAds) */,
+				6E780E822324F5C71820D4A0A5CE3E1D /* Pods-Section22.122(AdmobBannersAds)Tests */,
+				FF0849B6EE82057873C6A713954EC0F1 /* Pods-Section22.122(AdmobBannersAds)UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				820FBBDA65C5B1A6A4C379A893C27235 /* Pods */,
+				E664A015233670861F79F2E74CBAB72B /* Products */,
+				774297CDD68C87756949044506C5E01A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		820FBBDA65C5B1A6A4C379A893C27235 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2D755A60549F10C3C21F9AFC87AA432 /* Google-Mobile-Ads-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A6D1C12748FA431B569480DEE6CCE5CC /* Pods-Section22.122(AdmobBannersAds) */ = {
+			isa = PBXGroup;
+			children = (
+				6D2CCB9192D813F79CF6D16EBA32BE17 /* Pods-Section22.122(AdmobBannersAds)-acknowledgements.markdown */,
+				EB0C4DC133F676FC5685E635AF0F7F98 /* Pods-Section22.122(AdmobBannersAds)-acknowledgements.plist */,
+				4B1438DA78EF5489961AA8A651E92878 /* Pods-Section22.122(AdmobBannersAds)-dummy.m */,
+				4811C02BF90C3EAD4144844CF04AD699 /* Pods-Section22.122(AdmobBannersAds)-frameworks.sh */,
+				800F348B306577257DBBDA158A5EDD5C /* Pods-Section22.122(AdmobBannersAds)-resources.sh */,
+				1426EFC4E0042BA859F5F20B3DD35921 /* Pods-Section22.122(AdmobBannersAds).debug.xcconfig */,
+				ED1D5737E78F46012F453618D1457595 /* Pods-Section22.122(AdmobBannersAds).release.xcconfig */,
+			);
+			name = "Pods-Section22.122(AdmobBannersAds)";
+			path = "Target Support Files/Pods-Section22.122(AdmobBannersAds)";
+			sourceTree = "<group>";
+		};
+		B2D755A60549F10C3C21F9AFC87AA432 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				E729DC941541568B32695DC1C327B163 /* Frameworks */,
+			);
+			name = "Google-Mobile-Ads-SDK";
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		E664A015233670861F79F2E74CBAB72B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				394C5557528637696E1B0007453D7D46 /* libPods-Section22.122(AdmobBannersAds).a */,
+				AE0D0DE4F6F896A3078664BC716195AE /* libPods-Section22.122(AdmobBannersAds)Tests.a */,
+				679A59E6C9147715602F3EB5A7C3D4BB /* libPods-Section22.122(AdmobBannersAds)UITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E729DC941541568B32695DC1C327B163 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E929E7C43365FD21388212A99EBBE68 /* GoogleMobileAds.framework */,
+				34B3EF078E22922CA6B3A3242417BB13 /* libGoogleMobileAds.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF0849B6EE82057873C6A713954EC0F1 /* Pods-Section22.122(AdmobBannersAds)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				41EFE3E6A36DFC0F6D7C992BFC2EFAEF /* Pods-Section22.122(AdmobBannersAds)UITests-acknowledgements.markdown */,
+				F42A929520810A07E646F7F0E03CDE9D /* Pods-Section22.122(AdmobBannersAds)UITests-acknowledgements.plist */,
+				981D3610C1AD4B0AD1DDC7F72E1448E9 /* Pods-Section22.122(AdmobBannersAds)UITests-dummy.m */,
+				31F27EBA39DB2949301D33093A99F7A1 /* Pods-Section22.122(AdmobBannersAds)UITests-frameworks.sh */,
+				ABA76FFBF095D1D4F367BF449A17F95B /* Pods-Section22.122(AdmobBannersAds)UITests-resources.sh */,
+				82E5A7A7496CD05F22906C1DE2EE5D58 /* Pods-Section22.122(AdmobBannersAds)UITests.debug.xcconfig */,
+				DD319787EF08DB898DD40A7DF2BA3D12 /* Pods-Section22.122(AdmobBannersAds)UITests.release.xcconfig */,
+			);
+			name = "Pods-Section22.122(AdmobBannersAds)UITests";
+			path = "Target Support Files/Pods-Section22.122(AdmobBannersAds)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29DFD068CE06A2DFDCAD49D27312D26F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31CC922DF1304F73338205237CAFAB60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9953FC791FA8ECBDBC3AF7B6E7FDA59A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		007B11DB223015F89A52A4AF968FD9AA /* Pods-Section22.122(AdmobBannersAds) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E42DBFB7D27F710A3EBB6CEBFB527D4 /* Build configuration list for PBXNativeTarget "Pods-Section22.122(AdmobBannersAds)" */;
+			buildPhases = (
+				31CC922DF1304F73338205237CAFAB60 /* Headers */,
+				088B07E11E0AFC5075288374DA01E5F1 /* Sources */,
+				20A46F2876ADB361104F104CBD1CA8F5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Section22.122(AdmobBannersAds)";
+			productName = "Pods-Section22.122(AdmobBannersAds)";
+			productReference = 394C5557528637696E1B0007453D7D46 /* libPods-Section22.122(AdmobBannersAds).a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		13282B57E07ABEF3F640A071B89BBFCB /* Pods-Section22.122(AdmobBannersAds)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8279A993C3F7350756913B50619F28 /* Build configuration list for PBXNativeTarget "Pods-Section22.122(AdmobBannersAds)Tests" */;
+			buildPhases = (
+				9953FC791FA8ECBDBC3AF7B6E7FDA59A /* Headers */,
+				0C37533AABCE882AB427989B624428C7 /* Sources */,
+				4236A2964793B3B3B6172F9F2100C55E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D080066C7BBE0DF449C523772261A47 /* PBXTargetDependency */,
+			);
+			name = "Pods-Section22.122(AdmobBannersAds)Tests";
+			productName = "Pods-Section22.122(AdmobBannersAds)Tests";
+			productReference = AE0D0DE4F6F896A3078664BC716195AE /* libPods-Section22.122(AdmobBannersAds)Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F1F3B9D4828520B8447714621C1EDF77 /* Pods-Section22.122(AdmobBannersAds)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D4D57DA27976E5A8F4257B2C9569BE1 /* Build configuration list for PBXNativeTarget "Pods-Section22.122(AdmobBannersAds)UITests" */;
+			buildPhases = (
+				29DFD068CE06A2DFDCAD49D27312D26F /* Headers */,
+				3BB2FE0812BB828662B8C2A15BA4C285 /* Sources */,
+				23D5C746E08E9E001F32F83A48AC1CCE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D858A9494995C4A6CCE32184FDEFAC90 /* PBXTargetDependency */,
+			);
+			name = "Pods-Section22.122(AdmobBannersAds)UITests";
+			productName = "Pods-Section22.122(AdmobBannersAds)UITests";
+			productReference = 679A59E6C9147715602F3EB5A7C3D4BB /* libPods-Section22.122(AdmobBannersAds)UITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E664A015233670861F79F2E74CBAB72B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				007B11DB223015F89A52A4AF968FD9AA /* Pods-Section22.122(AdmobBannersAds) */,
+				13282B57E07ABEF3F640A071B89BBFCB /* Pods-Section22.122(AdmobBannersAds)Tests */,
+				F1F3B9D4828520B8447714621C1EDF77 /* Pods-Section22.122(AdmobBannersAds)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		088B07E11E0AFC5075288374DA01E5F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCC8AF40144B904F302C8230E4229DE /* Pods-Section22.122(AdmobBannersAds)-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C37533AABCE882AB427989B624428C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A471D79F14FA089F432F7634693A2EF5 /* Pods-Section22.122(AdmobBannersAds)Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB2FE0812BB828662B8C2A15BA4C285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC37168B07ABFB9CF09E69D914393648 /* Pods-Section22.122(AdmobBannersAds)UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D080066C7BBE0DF449C523772261A47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Section22.122(AdmobBannersAds)";
+			target = 007B11DB223015F89A52A4AF968FD9AA /* Pods-Section22.122(AdmobBannersAds) */;
+			targetProxy = 198A8B0E419A7943F438F02001D37CFA /* PBXContainerItemProxy */;
+		};
+		D858A9494995C4A6CCE32184FDEFAC90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Section22.122(AdmobBannersAds)";
+			target = 007B11DB223015F89A52A4AF968FD9AA /* Pods-Section22.122(AdmobBannersAds) */;
+			targetProxy = 590EBB4D9849E854A6CACB373505083D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20BEF33014C914A623284970A898DCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD319787EF08DB898DD40A7DF2BA3D12 /* Pods-Section22.122(AdmobBannersAds)UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B21C82644D2B4E211854767FDC81422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1D5737E78F46012F453618D1457595 /* Pods-Section22.122(AdmobBannersAds).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		825B044D97340D3FB880491C0EE59E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9A7D1DFAE05745F24D034D49B7CD6C9 /* Pods-Section22.122(AdmobBannersAds)Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		857332C8A4853EEDC6678584927A9F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1426EFC4E0042BA859F5F20B3DD35921 /* Pods-Section22.122(AdmobBannersAds).debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CAAD1F9FA71E1302B05D99F8FFB373F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BB1E4D403FF3EC4DE6E32E68AF7FE38A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E5A7A7496CD05F22906C1DE2EE5D58 /* Pods-Section22.122(AdmobBannersAds)UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E49D747E4ED68D42F145504305BD5945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF98C5B4177BB0AC59F5569A0B5A37B6 /* Pods-Section22.122(AdmobBannersAds)Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFF583FA7420DC0AD49940362019A032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF583FA7420DC0AD49940362019A032 /* Debug */,
+				8CAAD1F9FA71E1302B05D99F8FFB373F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E42DBFB7D27F710A3EBB6CEBFB527D4 /* Build configuration list for PBXNativeTarget "Pods-Section22.122(AdmobBannersAds)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857332C8A4853EEDC6678584927A9F04 /* Debug */,
+				5B21C82644D2B4E211854767FDC81422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D4D57DA27976E5A8F4257B2C9569BE1 /* Build configuration list for PBXNativeTarget "Pods-Section22.122(AdmobBannersAds)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1E4D403FF3EC4DE6E32E68AF7FE38A /* Debug */,
+				20BEF33014C914A623284970A898DCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB8279A993C3F7350756913B50619F28 /* Build configuration list for PBXNativeTarget "Pods-Section22.122(AdmobBannersAds)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49D747E4ED68D42F145504305BD5945 /* Debug */,
+				825B044D97340D3FB880491C0EE59E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
