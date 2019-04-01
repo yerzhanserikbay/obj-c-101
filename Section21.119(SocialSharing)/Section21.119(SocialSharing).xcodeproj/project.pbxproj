@@ -16,6 +16,8 @@
 		5AE35534224EA2AE00C07D99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE35533224EA2AE00C07D99 /* main.m */; };
 		5AE3553E224EA2AE00C07D99 /* Section21_119_SocialSharing_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3553D224EA2AE00C07D99 /* Section21_119_SocialSharing_Tests.m */; };
 		5AE35549224EA2AE00C07D99 /* Section21_119_SocialSharing_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE35548224EA2AE00C07D99 /* Section21_119_SocialSharing_UITests.m */; };
+		5AE35558224F7B8700C07D99 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE35557224F7B8700C07D99 /* Accounts.framework */; };
+		5AE3555A224F7B8C00C07D99 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE35559224F7B8C00C07D99 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		5AE35544224EA2AE00C07D99 /* Section21.119(SocialSharing)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Section21.119(SocialSharing)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE35548224EA2AE00C07D99 /* Section21_119_SocialSharing_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Section21_119_SocialSharing_UITests.m; sourceTree = "<group>"; };
 		5AE3554A224EA2AE00C07D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AE35557224F7B8700C07D99 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		5AE35559224F7B8C00C07D99 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE3555A224F7B8C00C07D99 /* MessageUI.framework in Frameworks */,
+				5AE35558224F7B8700C07D99 /* Accounts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +93,7 @@
 				5AE3553C224EA2AE00C07D99 /* Section21.119(SocialSharing)Tests */,
 				5AE35547224EA2AE00C07D99 /* Section21.119(SocialSharing)UITests */,
 				5AE3551F224EA2AD00C07D99 /* Products */,
+				5AE35556224F7B8700C07D99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +140,15 @@
 				5AE3554A224EA2AE00C07D99 /* Info.plist */,
 			);
 			path = "Section21.119(SocialSharing)UITests";
+			sourceTree = "<group>";
+		};
+		5AE35556224F7B8700C07D99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AE35559224F7B8C00C07D99 /* MessageUI.framework */,
+				5AE35557224F7B8700C07D99 /* Accounts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
